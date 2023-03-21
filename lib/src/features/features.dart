@@ -3,6 +3,7 @@ import 'package:playground/core/theme/pallete.dart';
 import 'package:playground/core/widgets/pg_image.dart';
 import 'package:playground/core/widgets/pg_text.dart';
 import 'package:playground/src/features/add_to_cart_animation/views/product_list_view.dart';
+import 'package:playground/src/features/gyroscope/views/gyroscope_view.dart';
 import 'package:playground/src/features/models/features_model.dart';
 import 'package:playground/src/features/responsive/views/responsive_view.dart';
 
@@ -108,6 +109,9 @@ class _FeaturesState extends State<Features> {
         break;
       case 1:
         feature = const ResponsiveView();
+        break;
+      case 2:
+        feature = const GyroscopeView();
         break;
       default:
         feature = const Features();

@@ -17,6 +17,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   add_to_cart_animation: ^2.0.3
+  sensors_plus: ^2.0.2
 
 dev_dependencies:
   flutter_test:
